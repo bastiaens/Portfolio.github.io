@@ -220,6 +220,8 @@ h1,h2,h3,h4,a {
     }
   }
 .preuve-inner{
+    width: 100%;
+    justify-content: center;
     position: center;
 }
 .preuve-inner table{
