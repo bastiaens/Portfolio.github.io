@@ -3,11 +3,6 @@ body {
     font-family: 'Roboto Slab', sans-serif;
   }
 
-section {
-    height: 100%;
-  }
-    
-
 h1,h2,h3,h4,a {
   font-family: 'Roboto Slab', sans-serif;
   text-transform: uppercase;
@@ -81,7 +76,7 @@ h1,h2,h3,h4,a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
   }
@@ -190,10 +185,13 @@ h1,h2,h3,h4,a {
       grid-row-gap: 3rem;
     }
   }
+  @media (max-width: 300px) {
   .blog-image img {
     width: 100%;
     height:auto;
+    overflow: auto;
   }
+}
   
   .blog-text {
     margin-bottom: 2rem;
