@@ -136,7 +136,7 @@ h1,h2,h3,h4,a {
   }
   
   .callout {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://unsplash.it/1500?image=1019);
+    background-color: lightgray;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,13 +185,13 @@ h1,h2,h3,h4,a {
       grid-row-gap: 3rem;
     }
   }
-  @media (max-width: 300px) {
+
   .blog-image img {
-    width: 100%;
+    width: auto;
     height:auto;
     overflow: auto;
   }
-}
+
   
   .blog-text {
     margin-bottom: 2rem;
@@ -287,6 +287,7 @@ h1,h2,h3,h4,a {
   .footer-links ul li a {
     color: white;
     transition: color 200ms ease;
+    text-decoration: none;
   }
   .footer-links ul li a:hover {
     color: rgba(255, 255, 255, 0.8);
