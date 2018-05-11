@@ -219,6 +219,11 @@ h1,h2,h3,h4,a {
       font-size: 1rem;
     }
   }
+.preuve-inner table{
+    position: center center;
+    align-items: center;
+    text-align: center;
+}
   #footer {
     background-color: #333;
     color: white;
