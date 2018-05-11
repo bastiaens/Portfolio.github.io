@@ -249,7 +249,7 @@ h1,h2,h3,h4,a {
   @media (min-width: 768px) {
     .footer-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
       grid-gap: 1rem;
       justify-items: center;
@@ -260,7 +260,7 @@ h1,h2,h3,h4,a {
   @media (min-width: 1000px) {
     .footer-grid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
       grid-gap: 1rem;
       justify-items: center;
