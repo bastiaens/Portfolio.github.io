@@ -9,8 +9,8 @@ h1,h2,h3,h4,a {
   color: rgb(73, 73, 73);
 
 }
-  
-  .button {
+
+.button {
     padding: 0.5rem 1rem;
     background-color: #333;
     color: white;
@@ -23,21 +23,7 @@ h1,h2,h3,h4,a {
   .button:hover {
     background-color: rgba(51, 51, 51, 0.8);
   }
-  
-  .ghost-button {
-    background: transparent;
-    border: 3px solid #333;
-    color: #333;
-    text-transform: uppercase;
-    font-weight: 700;
-    transition: background-color 200ms ease, color 200ms ease;
-    padding: 1rem;
-  }
-  .ghost-button:hover {
-    background: #333;
-    color: white;
-  }
-  
+
   .grid-wrapper {
     grid-template-columns: repeat(12, auto);
     grid-template-rows: auto;
@@ -94,14 +80,8 @@ h1,h2,h3,h4,a {
     display: flex;
     align-items: center;
   }
-  
-  .home {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .home-inner {
+
+ .home-inner {
     max-width: 80vw;
     margin: auto;
     padding-left: 2rem;
