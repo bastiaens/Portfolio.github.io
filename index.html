@@ -3,30 +3,124 @@
 <head>
     <title>Document</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Styles -->
-    <link rel="stylesheet" href="https://bastiaens.github.io/Portfolio.github.io/CSS/main.css">
+    <link rel="stylesheet" href="CSS/main3.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--Javascript-->
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
 </head>
-<body>
-    <!-- Header -->
-    <header>
-        <a href="index.html" class="header-brand">Bastiaens Olivier</a>
-        <nav>
-            <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1></h1>
-
+<div class="grid-wrapper">
+        <!-- Navigation/Header-->
+        <header class="masthead">
+          <div class="masthead-inner">
+            <header class="site-title">
+              <h1>Portfolio Olivier Bastiaens</h1>
+            </header>
+            <nav class="main-nav">
+              <ul class="menu">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Work</a></li>
+                <li> <a href="#">Contact</a></li>
+                <li> <a href="#">CV</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <!-- Hero Image-->
+        <section class="hero">
+          <div class="hero-inner">
+            <h2>Some Amazing Text Goes Here</h2>
+          </div>
         </section>
-    </main>
-
-    <footer>
-        
-    </footer>
-
-</body>
-</html>
+        <!-- 3-Up Features-->
+        <section class="features">
+          <div class="features-inner">
+            <article class="features-group">
+              <div class="features-image"><img src="https://unsplash.it/600/400?image=700"/></div>
+              <div class="features-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum unde officiis consectetur atque cum obcaecati nostrum hic, et ratione consequatur laborum itaque ipsam quo consequuntur, nisi assumenda natus laboriosam sapiente.</p>
+              </div>
+            </article>
+            <article class="features-group">
+              <div class="features-image"><img src="https://unsplash.it/600/400?image=740"/></div>
+              <div class="features-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum unde officiis consectetur atque cum obcaecati nostrum hic, et ratione consequatur laborum itaque ipsam quo consequuntur, nisi assumenda natus laboriosam sapiente.</p>
+              </div>
+            </article>
+            <article class="features-group">
+              <div class="features-image"><img src="https://unsplash.it/600/400?image=800"/></div>
+              <div class="features-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum unde officiis consectetur atque cum obcaecati nostrum hic, et ratione consequatur laborum itaque ipsam quo consequuntur, nisi assumenda natus laboriosam sapiente.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- Call Out-->
+        <section class="callout">
+          <div class="callout-inner">
+            <h3> Mes activités</h3>
+          </div>
+        </section>
+        <!-- Blog-->
+        <section id="blog">
+          <div class="blog-inner">
+            <div class="blog-grid">
+              <div class="blog-image"><img src="https://unsplash.it/600/300?image=400"/></div>
+              <div class="blog-text">
+                <p class="blog-summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae provident obcaecati quos culpa cum tenetur similique, ex accusantium veniam!</p><a class="button" href="#">Read More</a>
+              </div>
+              <div class="blog-image"><img src="https://unsplash.it/600/300?image=350"/></div>
+              <div class="blog-text">
+                <p class="blog-summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae provident obcaecati quos culpa cum tenetur similique, ex accusantium veniam!</p><a class="button" href="#">Read More</a>
+              </div>
+              <div class="blog-image"><img src="https://unsplash.it/600/300?image=320"/></div>
+              <div class="blog-text">
+                <p class="blog-summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae provident obcaecati quos culpa cum tenetur similique, ex accusantium veniam!</p><a class="button" href="#">Read More</a>
+              </div>
+            </div>
+            <div class="blog-cta"><a class="button ghost-button" href="#">More stories on our blog</a></div>
+          </div>
+        </section>
+        <!-- Call Out-->
+        <section class="callout">
+            <div class="callout-inner">
+              <h3> Preuves</h3>
+            </div>
+          </section>
+        <!-- Footer-->
+        <footer id="footer">
+          <div class="footer-inner">
+            <div class="footer-grid">
+              <div class="footer-group">
+                <div class="footer-heading">
+                  <h4>Products</h4>
+                </div>
+                <div class="footer-links">
+                  <ul>
+                    <li> <a href="#">Link1</a></li>
+                    <li> <a href="#">Link2</a></li>
+                    <li> <a href="#">Link3</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-group">
+                <div class="footer-heading">
+                  <h4>Services</h4>
+                </div>
+                <div class="footer-links">
+                  <ul>
+                    <li> <a href="#">Link1</a></li>
+                    <li> <a href="#">Link2</a></li>
+                    <li> <a href="#">Link3</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </body>
+    </html>
