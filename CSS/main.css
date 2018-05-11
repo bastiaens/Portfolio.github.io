@@ -196,11 +196,12 @@ h1,h2,h3,h4,a {
   
   .blog-text {
     margin-bottom: 2rem;
+    overflow auto;
   }
   
   .blog-summary {
     margin-top: 0;
-    height: 110px;
+    height: auto;
   }
   
   .blog-cta {
