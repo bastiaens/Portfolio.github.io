@@ -81,7 +81,7 @@ h1,h2,h3,h4,a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 80vh;
     display: flex;
     align-items: center;
   }
@@ -94,7 +94,7 @@ h1,h2,h3,h4,a {
   .home-inner h2 {
     font-size: 2.5rem;
     text-align: center;
-    color: #fff;
+    color: ##494949;
     line-height: 1.2;
   }
   
