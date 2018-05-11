@@ -219,8 +219,10 @@ h1,h2,h3,h4,a {
       font-size: 1rem;
     }
   }
+.preuve-inner{
+    position: center;
+}
 .preuve-inner table{
-    position: center center;
     align-items: center;
     text-align: center;
 }
